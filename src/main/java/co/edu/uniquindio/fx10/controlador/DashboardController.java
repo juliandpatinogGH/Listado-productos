@@ -148,7 +148,7 @@ public class DashboardController {
      */
     public void restaurarVista() {
         try {
-            FXMLLoader loader = new FXMLLoader(App.class.getResource("/co/edu/uniquindio/fx10/vista/Vista/Dashboard.fxml"));
+            FXMLLoader loader = new FXMLLoader(App.class.getResource("/co/edu/uniquindio/fx10/vista/Vista/ListadoProductos.fxml"));
             Parent dashboard = loader.load();
 
             contenedorPrincipal.getChildren().clear();

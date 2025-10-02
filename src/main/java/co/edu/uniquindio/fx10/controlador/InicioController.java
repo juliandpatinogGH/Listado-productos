@@ -50,7 +50,7 @@ public class InicioController {
     @FXML
     void verProductos(ActionEvent event) {
         try {
-            Parent root = FXMLLoader.load(App.class.getResource("/co/edu/uniquindio/fx10/vista/Vista/Dashboard.fxml"));
+            Parent root = FXMLLoader.load(App.class.getResource("/co/edu/uniquindio/fx10/vista/Vista/ListadoProductos.fxml"));
             Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
             stage.setScene(new Scene(root));
             stage.show();
