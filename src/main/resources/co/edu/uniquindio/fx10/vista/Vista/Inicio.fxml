@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="216.0" prefWidth="274.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.fx10.controlador.InicioController">
+    <children>
+        <Label layoutX="36.0" prefHeight="86.0" prefWidth="202.0" text="Vista principal">
+            <font>
+                <Font name="System Bold" size="29.0" />
+            </font>
+        </Label>
+        <Button fx:id="btnCrearProducto" layoutX="60.0" layoutY="86.0" mnemonicParsing="false" onAction="#crearProducto" prefHeight="36.0" prefWidth="154.0" text="Crear Producto" />
+        <Button fx:id="btnVerProductos" layoutX="64.0" layoutY="145.0" mnemonicParsing="false" onAction="#verProductos" prefHeight="36.0" prefWidth="146.0" text="Ver Productos" />
+    </children>
+</AnchorPane>
